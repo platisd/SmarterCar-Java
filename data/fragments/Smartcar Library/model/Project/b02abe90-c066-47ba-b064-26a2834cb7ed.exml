@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Smartcar Library" version="4">
+  <OBJECT>
+    <ID name="Smartcar Library" mc="Standard.Project" uid="b02abe90-c066-47ba-b064-26a2834cb7ed"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Smartcar Library]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Smartcar Library" mc="Standard.DiagramSet" uid="296e2211-3b13-4c23-a0c9-76c7178a839d"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="smartcar library" mc="Standard.Package" uid="b099a919-b0a9-42bb-b634-1a4ee07000bd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

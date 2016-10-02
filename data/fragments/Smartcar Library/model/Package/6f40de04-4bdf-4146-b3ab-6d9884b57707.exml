@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="vehicle" version="4">
+  <OBJECT>
+    <ID name="vehicle" mc="Standard.Package" uid="6f40de04-4bdf-4146-b3ab-6d9884b57707"/>
+    <PID name="lib" mc="Standard.Package" uid="430c0a82-8583-4586-8c10-b228b5c388a2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[vehicle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Car" mc="Standard.Class" uid="5bf1672c-5198-4cc7-ae19-519b4dc3c338"/>
+        <COMPID name="control" mc="Standard.Package" uid="8478ec7d-8af7-49a2-80b3-f4a2d64e7920"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Standard.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

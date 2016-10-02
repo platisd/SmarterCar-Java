@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="twopin" version="4">
+  <OBJECT>
+    <ID name="twopin" mc="Standard.Package" uid="a66a21e3-d934-4c9d-98e6-f0ec8d4f2d60"/>
+    <PID name="sonar" mc="Standard.Package" uid="0a8479a3-d1fa-4004-9f84-2055dabc69eb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[twopin]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SR04" mc="Standard.Class" uid="42260f25-062a-4277-937c-fe228afbb22a"/>
+        <COMPID name="DigitalUltrasonic" mc="Standard.Class" uid="926d0ea6-9541-46ea-854e-9d02c2b77115"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Standard.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

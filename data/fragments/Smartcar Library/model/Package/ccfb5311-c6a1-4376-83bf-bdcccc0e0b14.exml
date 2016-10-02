@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="odometry" version="4">
+  <OBJECT>
+    <ID name="odometry" mc="Standard.Package" uid="ccfb5311-c6a1-4376-83bf-bdcccc0e0b14"/>
+    <PID name="sensor" mc="Standard.Package" uid="b81e8fed-2b42-4d85-aaeb-213ed5be3184"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[odometry]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="OdometerSensor" mc="Standard.Interface" uid="c04cd94a-429b-4f82-991d-b44455c9a510"/>
+        <COMPID name="WheelEncoder" mc="Standard.Class" uid="0092f9f8-1d1f-44aa-b4dd-3db4aad5b5fe"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Standard.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="control" version="4">
+  <OBJECT>
+    <ID name="control" mc="Standard.Package" uid="8478ec7d-8af7-49a2-80b3-f4a2d64e7920"/>
+    <PID name="vehicle" mc="Standard.Package" uid="6f40de04-4bdf-4146-b3ab-6d9884b57707"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[control]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Control" mc="Standard.Interface" uid="8d80f96d-b2eb-4e9e-aab1-efc42258b978"/>
+        <COMPID name="AckermanControl" mc="Standard.Class" uid="f85bce92-aa28-4128-a0e3-1f10601df870"/>
+        <COMPID name="DifferentialControl" mc="Standard.Class" uid="e815b166-2474-4a9e-8572-09ca7d38d65d"/>
+        <COMPID name="motor" mc="Standard.Package" uid="b54d1246-4589-4cf5-aee3-935edbc5d122"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Standard.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

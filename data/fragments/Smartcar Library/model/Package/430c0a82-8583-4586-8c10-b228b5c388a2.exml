@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lib" version="4">
+  <OBJECT>
+    <ID name="lib" mc="Standard.Package" uid="430c0a82-8583-4586-8c10-b228b5c388a2"/>
+    <PID name="smartcar library" mc="Standard.Package" uid="b099a919-b0a9-42bb-b634-1a4ee07000bd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lib]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="sensor" mc="Standard.Package" uid="b81e8fed-2b42-4d85-aaeb-213ed5be3184"/>
+        <COMPID name="vehicle" mc="Standard.Package" uid="6f40de04-4bdf-4146-b3ab-6d9884b57707"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Standard.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

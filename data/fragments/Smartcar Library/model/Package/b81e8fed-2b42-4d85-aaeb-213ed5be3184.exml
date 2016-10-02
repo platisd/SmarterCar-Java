@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sensor" version="4">
+  <OBJECT>
+    <ID name="sensor" mc="Standard.Package" uid="b81e8fed-2b42-4d85-aaeb-213ed5be3184"/>
+    <PID name="lib" mc="Standard.Package" uid="430c0a82-8583-4586-8c10-b228b5c388a2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sensor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="distance" mc="Standard.Package" uid="3f2dbde0-716b-49cf-afc0-3fa82630e5dd"/>
+        <COMPID name="heading" mc="Standard.Package" uid="66b8ac6f-cc0e-4953-9612-c168305e7aa9"/>
+        <COMPID name="odometry" mc="Standard.Package" uid="ccfb5311-c6a1-4376-83bf-bdcccc0e0b14"/>
+        <COMPID name="Sensor" mc="Standard.Interface" uid="5e3aa131-6830-48eb-b2e8-48a3158401b6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Standard.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

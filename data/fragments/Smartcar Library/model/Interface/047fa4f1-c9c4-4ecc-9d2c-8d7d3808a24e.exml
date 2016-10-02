@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IMUHeading" version="4">
+  <OBJECT>
+    <ID name="IMUHeading" mc="Standard.Interface" uid="047fa4f1-c9c4-4ecc-9d2c-8d7d3808a24e"/>
+    <PID name="imu" mc="Standard.Package" uid="9adfc53f-62ff-48db-a77b-3485d4f3c169"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[IMUHeading]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="62e889c4-fdde-46de-a346-3214e9e3186b"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="HeadingSensor" mc="Standard.Interface" uid="554396a5-707a-46cf-a50b-841d3213e63e"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="implementation" mc="Standard.Stereotype" uid="00700680-0000-01c7-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Standard.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

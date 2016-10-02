@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gyroscope" version="4">
+  <OBJECT>
+    <ID name="gyroscope" mc="Standard.Package" uid="5319cbcc-9a6b-40d5-bd77-1d707a098991"/>
+    <PID name="heading" mc="Standard.Package" uid="66b8ac6f-cc0e-4953-9612-c168305e7aa9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gyroscope]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GyroscopeHeading" mc="Standard.Interface" uid="a9ff1484-8b4d-492c-b763-a490fea27db2"/>
+        <COMPID name="GY50" mc="Standard.Class" uid="7d02f1a2-15cd-4af9-9bcf-faade37425a9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Standard.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

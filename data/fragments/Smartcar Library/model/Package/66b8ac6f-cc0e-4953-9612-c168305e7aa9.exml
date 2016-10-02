@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="heading" version="4">
+  <OBJECT>
+    <ID name="heading" mc="Standard.Package" uid="66b8ac6f-cc0e-4953-9612-c168305e7aa9"/>
+    <PID name="sensor" mc="Standard.Package" uid="b81e8fed-2b42-4d85-aaeb-213ed5be3184"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[heading]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="gyroscope" mc="Standard.Package" uid="5319cbcc-9a6b-40d5-bd77-1d707a098991"/>
+        <COMPID name="imu" mc="Standard.Package" uid="9adfc53f-62ff-48db-a77b-3485d4f3c169"/>
+        <COMPID name="HeadingSensor" mc="Standard.Interface" uid="554396a5-707a-46cf-a50b-841d3213e63e"/>
+        <COMPID name="Class" mc="Standard.Class" uid="21e3c625-95fd-40a0-8243-ba68ac91792c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Standard.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

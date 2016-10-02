@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Smartcar Library" version="4">
+  <OBJECT>
+    <ID name="Smartcar Library" mc="Standard.AnalystProject" uid="0f6b79cb-8498-4c26-9974-b4f43ff35ee3"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Smartcar Library]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="Smartcar Library" mc="Standard.PropertyContainer" uid="b1bc169e-12c8-454b-9934-6106fbe2f21d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="distance" version="4">
+  <OBJECT>
+    <ID name="distance" mc="Standard.Package" uid="3f2dbde0-716b-49cf-afc0-3fa82630e5dd"/>
+    <PID name="sensor" mc="Standard.Package" uid="b81e8fed-2b42-4d85-aaeb-213ed5be3184"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[distance]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="infrared" mc="Standard.Package" uid="1a321abc-7e45-493d-8e6d-497c410883ed"/>
+        <COMPID name="ultrasonic" mc="Standard.Package" uid="0a8479a3-d1fa-4004-9f84-2055dabc69eb"/>
+        <COMPID name="DistanceSensor" mc="Standard.Interface" uid="52885bc9-dc30-4019-82ce-86e908fbba6b"/>
+        <COMPID name="MedianDistance" mc="Standard.Class" uid="f4a6f859-a6da-49a6-adbf-fcd89d37d1a7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Standard.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
